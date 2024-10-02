@@ -1,4 +1,4 @@
-import 'package:code_base/lib/helpers/base_widgets/text.dart';
+import 'package:doctors_task/helpers/base_widgets/text.dart';
 import 'package:flutter/material.dart';
 
 class MySnackBar

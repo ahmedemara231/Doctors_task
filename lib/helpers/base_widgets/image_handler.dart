@@ -1,6 +1,7 @@
-import 'package:code_base/lib/helpers/base_widgets/text.dart';
+import 'package:doctors_task/helpers/base_widgets/text.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+
 import '../../constants/app_constants.dart';
 
 class MyNetworkImage extends StatelessWidget {
