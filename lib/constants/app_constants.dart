@@ -29,3 +29,12 @@ class Constants
       ..maskType = EasyLoadingMaskType.black;
   }
 }
+
+class Images
+{
+  static const String homeDoctorImage = 'images/home_doctor.png';
+  static const String speciality1 = 'images/General.png';
+  static const String speciality2 = 'images/Neurologic.png';
+  static const String speciality3 = 'images/Pediatric.png';
+  static const String speciality4 = 'images/Radiology.png';
+}
