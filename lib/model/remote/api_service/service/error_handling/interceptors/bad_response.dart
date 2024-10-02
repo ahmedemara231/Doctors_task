@@ -1,7 +1,6 @@
 import 'dart:developer';
 import 'package:dio/dio.dart';
 import '../../../../../local/secure.dart';
-import '../../Api_constants.dart';
 import '../../request_model/headers.dart';
 import '../../request_model/request_model.dart';
 
@@ -46,7 +45,8 @@ class BadResponseInterceptor extends InterceptorsWrapper
   Future<void> _refreshToken() async
   {
     await dio.post(
-        ApiConstants.refreshToken,
+      '',
+        // ApiConstants.refreshToken,
         options: Options(
             headers: await HeadersWithToken().toJson()
         )

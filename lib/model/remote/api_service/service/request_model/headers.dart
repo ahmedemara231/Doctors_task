@@ -1,5 +1,4 @@
 import 'dart:io';
-
 import '../../../../local/secure.dart';
 
 abstract class RequestHeaders
@@ -17,7 +16,7 @@ abstract class RequestHeaders
 
 class HeadersWithToken extends RequestHeaders
 {
-  HeadersWithToken({super.contentType});
+  HeadersWithToken({super.contentType, super.accept});
 
   Future<String?> get _getToken async
   {

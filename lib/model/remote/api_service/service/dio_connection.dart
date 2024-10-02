@@ -5,7 +5,7 @@ import 'package:connectivity_plus/connectivity_plus.dart';
 import 'package:dio/dio.dart';
 import 'package:doctors_task/model/remote/api_service/service/request_model/request_model.dart';
 import 'package:multiple_result/multiple_result.dart';
-import 'Api_constants.dart';
+import 'api_constants.dart';
 import 'api_request.dart';
 import 'error_handling/error_handler.dart';
 import 'error_handling/errors.dart';

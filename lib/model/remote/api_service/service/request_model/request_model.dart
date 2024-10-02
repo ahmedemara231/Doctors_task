@@ -1,7 +1,5 @@
 import 'dart:io';
-
 import 'package:dio/dio.dart';
-
 import 'headers.dart';
 
 class RequestModel
@@ -28,8 +26,6 @@ class RequestModel
     this.isFormData = false,
   });
 
-
-
   Future<void> prepareDataForRequest()async
   {
     if(data != null)
@@ -44,6 +40,5 @@ class RequestModel
       }
     }
   }
-
 }
 
